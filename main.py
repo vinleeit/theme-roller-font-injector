@@ -186,7 +186,7 @@ def main():
         shutil.rmtree(TEMP_PATH)
     TEMP_PATH.mkdir(parents=True, exist_ok=True)
 
-    if TEMP_PATH.exists():
+    if OUTPUT_PATH.exists():
         shutil.rmtree(OUTPUT_PATH)
     OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
 
